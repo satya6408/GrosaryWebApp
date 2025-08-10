@@ -1,0 +1,50 @@
+
+.container{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: center;
+    height: 70vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(8, 8, 8, 10);
+}
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    width: 80%;
+   
+}
+
+
+.card{
+    padding: 40px;
+    width: 36%;
+    border: none;
+    
+}
+@media screen and (max-width:768px) {
+    .card{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.heading{
+    font-family: "Bree Serif";
+    font-size: 26px;
+}
+
+.image{
+    height: 50vh;
+    width: 44%;
+
+}
+@media screen and (max-width:768px) {
+    .image{
+        display: none;
+    }
+}

@@ -1,0 +1,20 @@
+.home-container{
+    height: 90vh;
+    overflow: auto;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMteGUFDVXr49C_h9ei2hVPcBn0zd29mgEa15Oz88K4_pXQQBMIbZ2y-qt2eDv5w8QCOA&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.home-section{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:768px) {
+    .home-section{
+        flex-direction: column;
+    }
+}

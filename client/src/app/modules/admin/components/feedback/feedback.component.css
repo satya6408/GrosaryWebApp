@@ -1,0 +1,26 @@
+.feedback-container{
+ background-image: url('https://t3.ftcdn.net/jpg/03/58/82/46/360_F_358824602_iAyjwiB8xFIuZZOlzJhXFGvpkuuRDiVl.jpg');background-size: cover; background-position: center;
+    height:100%;
+    
+}
+.loader-container.loader-container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.feedback-container{
+    height: 90vh;
+    overflow: auto;
+}
+
+.img-fluid{
+    width: 30%;
+}
+@media screen and (max-width:768px) {
+    .img-fluid{
+        width: 100%;
+    }
+}

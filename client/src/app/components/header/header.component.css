@@ -1,0 +1,29 @@
+.navbar {
+  min-height: 10vh;
+    background-color:  #deeaee!important;
+  padding: 10px 40px;
+  border-bottom: 1px solid #dadada;
+  display: flex;
+  width: 100%;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+
+@media screen and (max-width:768px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+}
+
+.navbar-nav .nav-link.active {
+  background-color: rgb(66, 116, 192) !important;
+  border-radius: 6px;
+  padding: 10px 30px;
+  height: 100%;
+  color: #fff;
+}
+
+.image-logo{
+  width: 60px;
+  margin-right: 40px;
+}

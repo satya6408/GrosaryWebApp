@@ -1,0 +1,20 @@
+.cotegory-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    overflow: auto;
+    color: white;
+}
+.card{
+    width: 90%;
+    padding: 40px;
+}
+
+.loader-container{
+    height: 900vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

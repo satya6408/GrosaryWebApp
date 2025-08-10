@@ -1,0 +1,26 @@
+<div class="loader-container w-100" *ngIf="isLoading">
+    <app-loader-spinner></app-loader-spinner>
+</div>
+<ul class="list-group p-4" *ngIf="!isLoading" style="background-image: url('https://t3.ftcdn.net/jpg/03/58/82/46/360_F_358824602_iAyjwiB8xFIuZZOlzJhXFGvpkuuRDiVl.jpg');background-size: cover; background-position: center;height:100%;">
+    <h1 style="color: rgb(255, 255, 255); font-size: 38px; font-weight: bold;text-align: center;" class="mb-4">Users</h1>
+    <li class="list-group-item" *ngFor="let user of users">
+      <div class="col card p-4">
+        <div>
+            <strong>User Id:</strong> {{ user._id }}
+          </div>
+        <div>
+          <strong>First Name:</strong> {{ user.firstname }}
+        </div>
+        <div>
+          <strong>Last Name:</strong> {{ user.lastname }}
+        </div>
+        <div>
+          <strong>Username:</strong> {{ user.username }}
+        </div>
+        <div>
+          <strong>Email:</strong> {{ user.email }}
+        </div>
+      </div>
+    </li>
+  </ul>
+  
